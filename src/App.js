@@ -10,6 +10,10 @@ import RenderizadoElementos from "./components/RenderizadoElementos";
 import { EventosES6, EventosES7, MasSobreEventos } from "./components/Eventose";
 import { Padre } from "./components/ComunicacionComponentes";
 import CicloVida from "./components/CicloDeVida";
+import AjaxApis from "./components/AjaxApis";
+import ContadorHooks from "./components/ContadorHooks";
+import ScrollHooks from "./components/ScrollHooks";
+import RelojHooks from "./components/RelojHooks";
 
 function App() {
   let estaciones = ["primavera", "verano", "otoño", "invierno"];
@@ -74,6 +78,14 @@ function App() {
             <Padre />
             <hr />
             <CicloVida />
+            <hr />
+            <AjaxApis />
+            <hr />
+            <ContadorHooks />
+            <hr />
+            <ScrollHooks />
+            <hr />
+            <RelojHooks />
           </section>
         </header>
       </div>
