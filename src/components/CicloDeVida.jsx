@@ -18,7 +18,7 @@ class Reloj extends React.Component {
 export default class CicloVida extends React.Component {
   constructor(props) {
     super(props);
-    console.log(0, "El componente se incializa, sin estar en el DOM");
+    // console.log(0, "El componente se incializa, sin estar en el DOM");
 
     this.state = {
       hora: new Date().toLocaleTimeString(),
@@ -29,13 +29,13 @@ export default class CicloVida extends React.Component {
   }
 
   componentDidMount() {
-    console.log(1, "El componente ya se encuentra en el DOM");
+    // console.log(1, "El componente ya se encuentra en el DOM");
   }
 
   componentDidUpdate(prevProps, prevState) {
-    console.log(2, "El estado o las props han cambiado");
-    console.log(prevProps);
-    console.log(prevState);
+    // console.log(2, "El estado o las props han cambiado");
+    // console.log(prevProps);
+    // console.log(prevState);
   }
 
   tictac = () => {
@@ -63,7 +63,7 @@ export default class CicloVida extends React.Component {
   };
 
   render() {
-    console.log(4, "El dibuja o redibuja");
+    // console.log(4, "El dibuja o redibuja");
     return (
       <>
         <h2>Ciclo de vida</h2>

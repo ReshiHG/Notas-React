@@ -6,7 +6,7 @@ export default function ScrollHooks() {
   //ACTUALIZACIÓN con variable----------------------
   //gracias al segundo parámetro [ScrollY]
   useEffect(() => {
-    console.log("Componente cargado");
+    // console.log("Componente cargado");
 
     function detectarScroll() {
       setScrollY(window.pageYOffset);
@@ -23,12 +23,12 @@ export default function ScrollHooks() {
   //MONTAJE---------------------------------
   //gracias al segundo parámetro vacío "[]"
   useEffect(() => {
-    console.log("Fase de montaje");
+    // console.log("Fase de montaje");
   }, []);
 
   //ACTUALIZACIÓN-------------------------
   useEffect(() => {
-    console.log("Fase de actualización");
+    // console.log("Fase de actualización");
   });
 
   return (

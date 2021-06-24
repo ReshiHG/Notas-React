@@ -42,7 +42,7 @@ export default function RelojHooks() {
   let temporizador = null;
 
   useEffect(() => {
-    console.log("Reloj Actualización");
+    // console.log("Reloj Actualización");
     if (visible) {
       // eslint-disable-next-line react-hooks/exhaustive-deps
       temporizador = setInterval(() => {
@@ -53,7 +53,7 @@ export default function RelojHooks() {
     }
 
     return () => {
-      console.log("Reloj Desmontaje");
+      // console.log("Reloj Desmontaje");
       clearInterval(temporizador);
     };
   }, [visible]);
