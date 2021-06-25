@@ -4,7 +4,7 @@ import "./App.css";
 import ComponenteClase from "./components/ComponenteClase";
 import ComponenteFuncional from "./components/ComponenteFuncional";
 import Propiedades from "./components/Propiedades";
-import Estado from "./components/Estado";
+// import Estado from "./components/Estado";
 import RenderizadoCondicional from "./components/RenderizadoCondicional";
 import RenderizadoElementos from "./components/RenderizadoElementos";
 import { EventosES6, EventosES7, MasSobreEventos } from "./components/Eventose";
@@ -16,6 +16,8 @@ import ScrollHooks from "./components/ScrollHooks";
 import RelojHooks from "./components/RelojHooks";
 import AjaxHooks from "./components/AjaxHooks";
 import HooksPersonalizados from "./components/HooksPersonalizados";
+import Referencias from "./components/Referencias";
+import Formularios from "./components/Formularios";
 
 function App() {
   let estaciones = ["primavera", "verano", "otoño", "invierno"];
@@ -64,8 +66,8 @@ function App() {
                 <ComponenteFuncional mensaje="Componente desde props" />
               }
             />
-            <hr />
-            <Estado />
+            {/* <hr />
+            <Estado /> */}
             <hr />
             <RenderizadoCondicional />
             <hr />
@@ -92,6 +94,17 @@ function App() {
             <AjaxHooks />
             <hr />
             <HooksPersonalizados />
+            <hr />
+            <Referencias />
+            <hr />
+            <Formularios />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
           </section>
         </header>
       </div>
