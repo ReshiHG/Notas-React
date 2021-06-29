@@ -18,6 +18,8 @@ import AjaxHooks from "./components/AjaxHooks";
 import HooksPersonalizados from "./components/HooksPersonalizados";
 import Referencias from "./components/Referencias";
 import Formularios from "./components/Formularios";
+import Estilos from "./components/Estilos";
+import StyledComponents from "./components/StyledComponents";
 
 function App() {
   let estaciones = ["primavera", "verano", "otoño", "invierno"];
@@ -98,6 +100,10 @@ function App() {
             <Referencias />
             <hr />
             <Formularios />
+            <hr />
+            <Estilos />
+            <hr />
+            <StyledComponents />
             <br />
             <br />
             <br />

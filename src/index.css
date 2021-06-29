@@ -1,3 +1,6 @@
+/* La siguiente linea es parte del componente "Estilos.jsx" */
+@import-normalize;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
